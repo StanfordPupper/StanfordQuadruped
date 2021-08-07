@@ -8,7 +8,7 @@ cd ..
 # git clone https://github.com/stanfordroboticsclub/UDPComms.git
 git clone https://github.com/StanfordPupper/UDPComms.git
 cd UDPComms
-sudo bash UDPComms/install.sh
+sudo bash install.sh
 cd ..
 
 git clone https://github.com/stanfordroboticsclub/PupperCommand.git
