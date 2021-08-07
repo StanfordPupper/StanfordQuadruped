@@ -4,6 +4,13 @@ yes | pip install numpy transforms3d pigpio pyserial
 yes | sudo pip install numpy transforms3d pigpio pyserial
 
 cd ..
+
+# git clone https://github.com/stanfordroboticsclub/UDPComms.git
+git clone https://github.com/StanfordPupper/UDPComms.git
+cd UDPComms
+sudo bash UDPComms/install.sh
+cd ..
+
 git clone https://github.com/stanfordroboticsclub/PupperCommand.git
 cd PupperCommand
 sudo bash install.sh
@@ -13,11 +20,12 @@ git clone https://github.com/stanfordroboticsclub/PS4Joystick.git
 cd PS4Joystick
 sudo bash install.sh
 cd ..
+
 sudo systemctl enable joystick
 
-#wget https://github.com/joan2937/pigpio/archive/v74.zip
-#unzip v74.zip
-#cd pigpio-74
+# wget https://github.com/joan2937/pigpio/archive/v74.zip
+# unzip v74.zip
+# cd pigpio-74
 https://codeload.github.com/joan2937/pigpio/zip/refs/tags/v79
 unzip pigpio-v79.zip
 cd pigpio-79
