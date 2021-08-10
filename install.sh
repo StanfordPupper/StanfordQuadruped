@@ -16,8 +16,10 @@ cd PS4Joystick
 sudo bash install.sh
 cd ..
 
-git clone https://github.com/stanfordroboticsclub/PupperCommand.git
-cd PupperCommand
+#git clone https://github.com/stanfordroboticsclub/PupperCommand.git
+#cd PupperCommand
+git https://github.com/StanfordPupper/PupperJoystick.git
+cd PupperJoystick
 sudo bash install.sh
 cd ..
 
