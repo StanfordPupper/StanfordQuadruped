@@ -11,17 +11,17 @@ cd UDPComms
 sudo bash install.sh
 cd ..
 
-git clone https://github.com/stanfordroboticsclub/PupperCommand.git
-cd PupperCommand
-sudo bash install.sh
-cd ..
-
 git clone https://github.com/stanfordroboticsclub/PS4Joystick.git
 cd PS4Joystick
 sudo bash install.sh
 cd ..
 
-sudo systemctl enable joystick
+git clone https://github.com/stanfordroboticsclub/PupperCommand.git
+cd PupperCommand
+sudo bash install.sh
+cd ..
+
+#sudo systemctl enable joystick
 
 # wget https://github.com/joan2937/pigpio/archive/v74.zip
 # unzip v74.zip
